@@ -1,18 +1,17 @@
 # Nicolas Thompson
 
-Principal MLOps Engineer building scalable machine learning platforms.
+I build telemetry ingestion pipelines, structured event-processing systems, and ML-ready data infrastructure on AWS.
 
-🌐 https://nicolast.dev  
-🐙 https://github.com/nic-thompson  
-💼 LinkedIn  
+Recent work focuses on:
 
----
+- schema-versioned telemetry ingestion
+- asynchronous processing pipelines
+- feature-store-style storage patterns
+- analytics-ready dataset generation workflows
+- observability across distributed services
 
-## About
+Currently building:
 
-I design and build production ML systems, cloud-native infrastructure,
-and scalable data platforms.
+**SignalForge** — a serverless telemetry ingestion and feature pipeline platform demonstrating replayable event pipelines, DynamoDB feature storage, and parquet dataset exports on AWS.
 
-## Tech
-
-Python • AWS • Kubernetes • MLOps • Distributed Systems
+Interested in ML Platform and MLOps engineering roles focused on training-data pipelines, feature infrastructure, and production monitoring systems.
