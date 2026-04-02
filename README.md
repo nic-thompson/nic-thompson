@@ -14,4 +14,4 @@ Currently building:
 
 **SignalForge** — a serverless telemetry ingestion and feature pipeline platform demonstrating replayable event pipelines, DynamoDB feature storage, and parquet dataset exports on AWS.
 
-Interested in ML Platform and MLOps engineering roles focused on training-data pipelines, feature infrastructure, and production monitoring systems.
+Focused on ML platform engineering roles involving telemetry pipelines, training-data infrastructure, model-serving systems, and production observability.
