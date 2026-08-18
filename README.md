@@ -13,5 +13,3 @@ Recent work focuses on:
 Currently building:
 
 **SignalForge** — a serverless telemetry ingestion and feature pipeline platform, a replayable event pipeline, DynamoDB feature storage, and parquet dataset exports on AWS.
-
-Focused on platform engineering involving telemetry pipelines, training-data infrastructure, model-serving systems, and production observability.
