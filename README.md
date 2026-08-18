@@ -1,6 +1,6 @@
 # Nicolas Thompson
 
-I build telemetry ingestion pipelines, structured event-processing systems, and ML-ready data infrastructure on AWS.
+I build telemetry ingestion pipelines, structured event-processing systems, and data infrastructure on AWS.
 
 Recent work focuses on:
 
@@ -12,6 +12,6 @@ Recent work focuses on:
 
 Currently building:
 
-**SignalForge** — a serverless telemetry ingestion and feature pipeline platform demonstrating replayable event pipelines, DynamoDB feature storage, and parquet dataset exports on AWS.
+**SignalForge** — a serverless telemetry ingestion and feature pipeline platform, a replayable event pipeline, DynamoDB feature storage, and parquet dataset exports on AWS.
 
-Focused on ML platform engineering roles involving telemetry pipelines, training-data infrastructure, model-serving systems, and production observability.
+Focused on platform engineering involving telemetry pipelines, training-data infrastructure, model-serving systems, and production observability.
