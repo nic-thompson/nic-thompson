@@ -1,15 +1,26 @@
-# Nicolas Thompson
+<!-- HEADER BANNER -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0052CC&height=200&section=header&text=Nicolas%20Thompson&fontSize=42&fontColor=ffffff&desc=Backend%20Engineer%20%7C%20AWS-Native%20Data%20Infrastructure&descSize=18&descAlignY=75" width="100%" alt="Header Banner" />
+</p>
 
-I build telemetry ingestion pipelines, structured event-processing systems, and data infrastructure on AWS.
+<!-- QUOTE & INTRO -->
+<p align="center">
+  <i>"I like systems that fail loudly and code that explains itself."</i>
+</p>
 
-Recent work focuses on:
+<p align="center">
+  <a href="https://nicolas-thompson.com"><img src="https://img.shields.io/badge/Website-nicolas--thompson.com-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/nicolas-giles-thompson"><img src="https://img.shields.io/badge/LinkedIn-nicolas--giles--thompson-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:hello@nicolas-thompson.com"><img src="https://img.shields.io/badge/Email-hello%40nicolas--thompson.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
-- schema-versioned telemetry ingestion
-- asynchronous processing pipelines
-- feature-store-style storage patterns
-- analytics-ready dataset generation workflows
-- observability across distributed services
+---
 
-Currently building:
+### **Architecture Focus**
 
-**SignalForge** — a serverless telemetry ingestion and feature pipeline platform, a replayable event pipeline, DynamoDB feature storage, and parquet dataset exports on AWS.
+```mermaid
+flowchart LR
+    A[Raw Stream Telemetry] --> B[Schema-Versioned Contracts]
+    B --> C[Async Processing Pipeline]
+    C --> D[(DynamoDB Feature Store)]
+    C --> E[(S3 / Parquet Export)]
